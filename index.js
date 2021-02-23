@@ -108,7 +108,7 @@ function getInningScore(inning) {
   return {Home, Away};
   /*Your Code Here */
 }
-
+console.log(getInningScore(inning));
 
 /* ⚾️⚾️⚾️ Task 5: scoreboard() ⚾️⚾️⚾️
 Use the scoreboard function below to do the following:
@@ -152,8 +152,9 @@ Use the scoreboard function below to do the following:
   */
 
 function scoreboard(callback, callback2, inning) {
-  let array = [];
-  if(callback.Home === callback.away)
+  
+ 
+
   /* CODE HERE */
 }
 

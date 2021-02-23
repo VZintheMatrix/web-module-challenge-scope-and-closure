@@ -43,6 +43,8 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+the ability to have functions within functions and still separated invocation because of scope look up.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,9 +65,14 @@ dansRoll();
 dansRoll();
 ```
 
-a. Where is closure used in this code? How can you tell?
-b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+a. Where is closure used in this code? How can you tell? closure is used in the return function() of personalDice
+
+b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change? 
+the string output is always the same. could change to winning roll vs losing roll. 
+
+
 c. What is the lexical scope of `newRoll`? 
+function scope - its only available to be called in that function. 
 
 
 ### Task 3 - Stretch Goals
